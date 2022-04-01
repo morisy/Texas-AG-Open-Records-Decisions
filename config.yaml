@@ -9,12 +9,12 @@ properties:
     type: string
     format: uri
     description: The URL of the site to start scraping
-    default: https://www.ssa.gov/foia/readingroom.html
+    default: https://www2.texasattorneygeneral.gov/open/index_orl.php?ag=51paxton&fmt=pdf&list=2022
   project:
     type: number
     description: >-
       The DocumentCloud project ID of the project the documents should be uploaded in to
-    default: 207338
+    default: 207539
   keywords:
     type: array
     items:
